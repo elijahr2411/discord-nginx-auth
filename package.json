@@ -1,0 +1,26 @@
+{
+  "name": "discord-nginx-auth",
+  "version": "0.0.1",
+  "description": "NGINX auth_request provider to restrict access to users in a discord server or have a specified role",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elijahr2411/discord-nginx-auth.git"
+  },
+  "author": "Elijah R",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Elijahr2411/discord-nginx-auth/issues"
+  },
+  "homepage": "https://github.com/Elijahr2411/discord-nginx-auth#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "mysql": "^2.18.1",
+    "url": "^0.11.0"
+  }
+}
