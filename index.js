@@ -4,7 +4,7 @@
 // Licensed under the GNU General Public License, latest version made available by the FSF
 
 // Imports
-const mysql = require("mysql");
+const mysql = require("mysql2");
 const fs = require("fs");
 const http = require("http");
 const url = require("url");
